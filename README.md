@@ -32,6 +32,7 @@ Construir un pipeline en Python y SQL que permita a una IPS:
 
 ## 📁 Estructura del proyecto
 
+```
 automatizacion-datos-clinicos/
 │
 ├── data/
@@ -39,28 +40,27 @@ automatizacion-datos-clinicos/
 │   └── processed/         # Datos limpios y transformados
 │
 ├── notebooks/
-│   └── 01_exploracion.ipynb       # Análisis exploratorio inicial
+│   └── 01_exploracion.ipynb
 │
 ├── src/
-│   ├── validacion.py              # Reglas de validación normativa
-│   ├── limpieza.py                # Transformación y estandarización
-│   ├── indicadores.py             # Cálculo de KPIs de calidad
-│   └── reporte.py                 # Generación automática de reportes
+│   ├── validacion.py
+│   ├── limpieza.py
+│   ├── indicadores.py
+│   └── reporte.py
 │
 ├── sql/
-│   └── consultas_principales.sql  # Queries de análisis y cruce
+│   └── consultas_principales.sql
 │
 ├── dashboard/
-│   └── README.md                  # Instrucciones del dashboard Power BI
+│   └── README.md
 │
 ├── docs/
-│   └── diccionario_datos.md       # Descripción de variables y fuentes
+│   └── diccionario_datos.md
 │
 ├── .gitignore
 ├── requirements.txt
 └── README.md
-
----
+```
 
 ## ⚙️ Tecnologías utilizadas
 
